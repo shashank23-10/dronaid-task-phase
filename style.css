@@ -160,7 +160,6 @@ a {
 
 .navigation .main-sec .row1,
 .row2,
-.row3,
 .row4,
 .row5 {
   display: grid;
@@ -204,13 +203,68 @@ p2 {
   color: var(--color-text-2);
   font-size: small;
 }
+
+.navigation .main-sec .row3 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.navigation .main-sec .row3 img {
+  width: 8rem;
+  height: 12rem;
+  border-radius: 5%;
+  transition: all 0.4s ease-in-out;
+  filter: brightness(1);
+}
+.navigation .main-sec .row3 img:hover {
+  width: 10rem;
+  height: 14rem;
+  border-radius: 5%;
+  cursor: pointer;
+  z-index: -1;
+  filter: brightness(1.25);
+}
+.navigation .main-sec .row3 p2 {
+  padding-left: 0rem;
+  margin-top: -1rem;
+  font-family: inherit;
+}
+
+.navigation .main-sec .row6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.navigation .main-sec .row6 img {
+  width: 8rem;
+  height: 12rem;
+  border-radius: 5%;
+  transition: all 0.4s ease-in-out;
+  filter: brightness(1);
+}
+.navigation .main-sec .row6 img:hover {
+  width: 10rem;
+  height: 14rem;
+  border-radius: 5%;
+  cursor: pointer;
+  z-index: -1;
+  filter: brightness(1.25);
+}
+.navigation .main-sec .row6 p2 {
+  padding-left: 0rem;
+  margin-top: -1rem;
+  font-family: inherit;
+}
+
 .sec-end {
 }
 .sec-end .end {
   background-color: var(--color-primary);
   align-items: center;
   padding-left: 38rem;
-  padding-top: 27rem;
+  padding-top: 55rem;
 }
 .sec-end .end .icon {
   padding-left: 2.8rem;
