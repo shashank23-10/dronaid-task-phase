@@ -167,6 +167,12 @@ a {
   padding-top: 1rem;
   padding-left: 1rem;
 }
+
+.navigation .main-sec hr {
+  margin-top: 1rem;
+  border: 0.01px solid var(--color-text-2);
+}
+
 .navigation .main-sec .col1,
 .col2,
 .col3,
@@ -257,14 +263,16 @@ p2 {
   margin-top: -1rem;
   font-family: inherit;
 }
-
+.navigation .main-sec .shorts {
+  padding-top: 2rem;
+}
 .sec-end {
 }
 .sec-end .end {
   background-color: var(--color-primary);
   align-items: center;
   padding-left: 38rem;
-  padding-top: 55rem;
+  padding-top: 65rem;
 }
 .sec-end .end .icon {
   padding-left: 2.8rem;
